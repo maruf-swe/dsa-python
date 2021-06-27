@@ -1,2 +1,2 @@
 # ds-algorithms
-All DS and Algorithms implemented in Python
+DataStructure and Algorithms implemented in Python

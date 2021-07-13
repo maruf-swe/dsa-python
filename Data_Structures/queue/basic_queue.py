@@ -12,8 +12,14 @@ class Queue():
         else:
             return self.queue.pop(0)
 
+    def display(self):
+        return self.queue
+
     def size_of_queue(self):
         print(len(self.queue))
+
+    def is_empty(self):
+        return len(self.queue) == 0
 
 
 q1 = Queue()
@@ -26,3 +32,5 @@ print(q1.dequeue())
 q1.enqueue(5)
 q1.enqueue(6)
 q1.size_of_queue()
+print(q1.is_empty())
+print(q1.display())

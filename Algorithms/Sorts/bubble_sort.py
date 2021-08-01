@@ -18,7 +18,7 @@ def bubbleSort(array):
             break
 
 
-data = [1, 2, 3, 4, 5]
+data = [10, 22, 3, 4, 5]
 
 bubbleSort(data)
 print('Sorted Array in Ascending Order:')
